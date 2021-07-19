@@ -26,7 +26,7 @@ apq8096pro-auto-cdp-overlay.dtbo-base := apq8096pro-auto.dtb
 msm8996pro-v1.1-auto-cdp-overlay.dtbo-base := msm8996pro-v1.1-auto.dtb
 else
 ifeq ($(CONFIG_MACH_ZUK_Z2_PLUS),y)
-dtb-$(CONFIG_ARCH_MSM8996) += msm8996-v3-pmi8996-mtp-z2_plus.dtb
+dtb-$(CONFIG_ARCH_MSM8996) += msm8996-v3-pmi8996-mtp-z2_plus_hw.dtb
 else ifeq ($(CONFIG_MACH_ZUK_Z2_ROW),y)
 dtb-$(CONFIG_ARCH_MSM8996) += msm8996-v3-pmi8996-mtp-z2_row.dtb
 else

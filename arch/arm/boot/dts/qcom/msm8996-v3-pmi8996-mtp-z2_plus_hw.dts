@@ -23,4 +23,4 @@
 	qcom,board-id = <8 0>;
 };
 
-#include "zuk/z2_plus-base.dtsi"
+#include "zuk/z2_plus_hw-base.dtsi"
